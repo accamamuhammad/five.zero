@@ -1,8 +1,8 @@
-📍👨🏽‍💻💸
+# 📍👨🏽‍💻💸
 
-# Application Name: 5.0 / five.zero / 5.zero / five.0
+# Application Name: 5.zero
 
-- Description: An Application that takes pdf files (class notes) as input and outputs a summary of them in pdf or image form as output, or outputs past questions
+Description: An Application that takes pdf files (class notes) as input and outputs a summary of them in pdf or image form as output, or outputs past questions
 
 ### Actions of the Application
 
@@ -13,7 +13,7 @@
 5. Ability to download pdf file
 6. Ability to store all generated outputs in an organised manner
 
-### Technologies / Tech Stack
+## Technologies / Tech Stack
 
 Frontend - NextJS Frontend
 Backend - NextJS
