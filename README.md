@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+📍👨🏽‍💻💸
 
-## Getting Started
+# Application Name: 5.0 / five.zero / 5.zero / five.0
 
-First, run the development server:
+- Description: An Application that takes pdf files (class notes) as input and outputs a summary of them in pdf or image form as output, or outputs past questions
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Actions of the Application
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Take pdf file as input
+2. Use AI to summarise or generate past questions
+3. Using an api to arrange the generated output pdf format
+4. Use Ai to change output based on user input
+5. Ability to download pdf file
+6. Ability to store all generated outputs in an organised manner
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Technologies / Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Frontend - NextJS Frontend
+Backend - NextJS
+Language - Typescript
+Styling - TailwindCSS
+Database - Firebase
+Deployment - Vercel
 
-## Learn More
+## API’s
 
-To learn more about Next.js, take a look at the following resources:
+### API Use case Application Cost
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- adobe api - to extract data from the pdf
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## UI
 
-## Deploy on Vercel
+- Minimalistic
+- light & dark modes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## UX
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- User is greeted with a sign in page that takes their information (name, email, age, school, level of education)
+- After 30 min of use the user to should prompted to give the app a rating between 1 to 5 starts
+- Account section to change data
+
+## Application Features
+
+- Toggle between two themes (light & dark mode)
+- Menu section consisting of (a new file button, theme mode toggle, my account section)
+- A storage area to store all pdf files and ability to add title and description to all of them
+- A place to store all generated pdf files and ability to add tags to them
