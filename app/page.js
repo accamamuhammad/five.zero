@@ -1,11 +1,7 @@
-import MainSelectFileArea from "@/Components/UploadData/MainSelectFileArea";
-
 export default function Home() {
   return (
-    <main className="w-screen h-screen flex items-center justify-center">
-      <>
-        <MainSelectFileArea />
-      </>
+    <main className="bg-white w-screen h-screen pl-0 pr-5 gap-5 flex items-center justify-center">
+      <h1>Hello</h1>
     </main>
   );
 }
