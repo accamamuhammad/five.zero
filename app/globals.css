@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.light-mode {
+  --nav-bg: #ffffff;
+  --purple-1: #5046e4;
+  --purple-2: #eef2ff;
+  --ash-1: #8a8a8a;
+}
+
+.dark-mode {
+  --nav-bg: #1f2937;
+  --purple-1: #101827;
+  --purple-2: #1f2937;
+  --ash-1: #cecece;
+}
