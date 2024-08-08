@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useState } from "react";
+import Link from "next/link";
 import SignInBtn from "./Common/SignInBtn";
 import UserProfile from "./Common/UserProfile";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -32,16 +33,16 @@ const Navbar = () => {
           }`}
         >
           <li className="hover:bg-purple-50 md:hover:bg-transparent hover:rounded-lg mr-3 cursor-pointer p-3 text-slate-500 hover:text-purple-600">
-            Products
+            <Link href="/Products">Products</Link>
           </li>
           <li className="hover:bg-purple-50 md:hover:bg-transparent hover:rounded-lg mr-3 cursor-pointer p-3 text-slate-500 hover:text-purple-600">
-            Pricing
+            <Link href="/Pricing">Pricing</Link>
           </li>
           <li className="hover:bg-purple-50 md:hover:bg-transparent hover:rounded-lg mr-3 cursor-pointer p-3 text-slate-500 hover:text-purple-600">
-            About us
+            <Link href="/AboutUs">About us</Link>
           </li>
           <li className="hover:bg-purple-50 md:hover:bg-transparent hover:rounded-lg mr-3 cursor-pointer p-3 text-slate-500 hover:text-purple-600">
-            How to use?
+            <Link href="/HowToUse">How to use?</Link>
           </li>
         </ul>
         <div>
