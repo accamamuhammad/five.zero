@@ -13,13 +13,7 @@ module.exports = {
       screens: {
         sm: "400px",
       },
-      colors: {
-        NavBg: "var(--nav-bg)",
-        PurpleOne: "var(--purple-1)",
-        PurpleTwo: "var(--purple-2)",
-        AshMain: "var(--ash-1)",
-      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
