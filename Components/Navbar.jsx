@@ -31,16 +31,16 @@ const Navbar = () => {
               : "hidden md:flex md:relative"
           }`}
         >
-          <li className="hover:bg-purple-50 hover:rounded-lg mr-3 cursor-pointer p-3 text-slate-500 hover:text-purple-600">
+          <li className="hover:bg-purple-50 md:hover:bg-transparent hover:rounded-lg mr-3 cursor-pointer p-3 text-slate-500 hover:text-purple-600">
             Products
           </li>
-          <li className="hover:bg-purple-50 hover:rounded-lg mr-3 cursor-pointer p-3 text-slate-500 hover:text-purple-600">
+          <li className="hover:bg-purple-50 md:hover:bg-transparent hover:rounded-lg mr-3 cursor-pointer p-3 text-slate-500 hover:text-purple-600">
             Pricing
           </li>
-          <li className="hover:bg-purple-50 hover:rounded-lg mr-3 cursor-pointer p-3 text-slate-500 hover:text-purple-600">
+          <li className="hover:bg-purple-50 md:hover:bg-transparent hover:rounded-lg mr-3 cursor-pointer p-3 text-slate-500 hover:text-purple-600">
             About us
           </li>
-          <li className="hover:bg-purple-50 hover:rounded-lg mr-3 cursor-pointer p-3 text-slate-500 hover:text-purple-600">
+          <li className="hover:bg-purple-50 md:hover:bg-transparent hover:rounded-lg mr-3 cursor-pointer p-3 text-slate-500 hover:text-purple-600">
             How to use?
           </li>
         </ul>
